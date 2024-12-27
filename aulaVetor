@@ -19,3 +19,57 @@ PARA contadorLoop1 DE 1 ATE 5 FAÇA
 FIMPARA
 
 fimalgoritmo
+
+-----------------
+
+Algoritmo "NotasAlunos"
+
+Var
+ notas: vetor[1..5] de real
+ contadorLoop1: inteiro
+ media: real
+ soma: real
+
+Inicio
+ soma <- 0
+ PARA contadorLoop1 DE 1 ATE 5 FAÇA
+      ESCREVA("Digite a nota do aluno(a)", contadorLoop1, " de 5: ")
+      LEIA (notas[contadorLoop1])
+      soma <- (soma + notas[contadorLoop1])
+ FIMPARA
+ 
+ PARA contadorLoop1 DE 1 ATE 5 FAÇA
+      ESCREVAL("A nota do aluno(a)",contadorLoop1, " é ", notas[contadorLoop1])
+ FIMPARA
+
+
+Fimalgoritmo
+
+---------
+
+Algoritmo "NotasAlunos"
+
+Var
+ notas: vetor[1..5] de real
+ nomes: vetor[1..5] de caractere
+ contadorLoop1: inteiro
+ media: real
+ soma: real
+
+Inicio
+ soma <- 0
+ PARA contadorLoop1 DE 1 ATE 5 FAÇA
+      ESCREVA("Digite o nome do aluno(a)", contadorLoop1, " de 5: ")
+      LEIA (nomes[contadorLoop1])
+      ESCREVA("Digite a nota do aluno(a)", contadorLoop1, " de 5: ")
+      LEIA (notas[contadorLoop1])
+      soma <- (soma + notas[contadorLoop1])
+ FIMPARA
+ media <- soma/contadorLoop1
+ 
+ ESCREVAL ("A média de notas dos alunos é:", media)
+
+Fimalgoritmo
+
+------------------------------------
+
