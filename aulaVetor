@@ -1,0 +1,21 @@
+// Portugol 
+// Aula Vetor
+
+algoritmo "VETORNOME"
+
+var
+  nomes: vetor [1..5] de caracteres
+  contadorLoop1: inteiro
+
+inicio
+
+PARA contadorLoop1 DE 1 ATE 5 FACA
+  ESCREVA(Digite o nome do aluno(a) número", contadorLoop', "de 5")
+  LEIA(nomes[contadorLoop1])
+FIMPARA
+
+PARA contadorLoop1 DE 1 ATE 5 FAÇA
+  ESCREVAL("Nome do aluno(a)", nomes[contadorLoop1])
+FIMPARA
+
+fimalgoritmo
