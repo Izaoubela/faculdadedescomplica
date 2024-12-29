@@ -1,0 +1,17 @@
+Algoritmo "ProdecimentoMostreNaTela"
+
+Procedimento mostreNaTela (frase:caracter)
+
+var
+
+inicio
+      ESCREVA(frase)
+fimprocedimento
+
+var
+
+inicio
+      escreval ("Mensagem do Procedimento:")
+      mostreNaTela("Meu primeiro procedimento com parâmetro")
+
+fimalgoritmo
