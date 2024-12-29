@@ -41,3 +41,27 @@ inicio
 fimalgoritmo
 
 ------
+
+Algoritmo "ExercicioProdecimentoComParametro"
+
+Procedimento mostreOProduto (x,y:real)
+
+var
+   aux: real
+
+inicio
+      aux <- x * y
+      Escreval(aux)
+      
+fimprocedimento
+
+var
+m, n: real
+
+inicio
+      m <- 1.5
+      n <- 3
+      mostreOProduto(m,n)
+
+fimalgoritmo
+
