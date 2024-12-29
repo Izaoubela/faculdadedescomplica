@@ -15,3 +15,29 @@ inicio
       mostreNaTela("Meu primeiro procedimento com parâmetro")
 
 fimalgoritmo
+
+--------
+
+Algoritmo "ProdecimentoExemploParametro"
+
+Procedimento soma (x,y:inteiro)
+
+var
+   aux: inteiro
+
+inicio
+      aux <- x + y
+      res <- aux
+fimprocedimento
+
+var
+res, m, n: inteiro
+
+inicio
+      n <- 4
+      m <- -9
+      soma(n,m)
+      Escreva(res)
+fimalgoritmo
+
+------
