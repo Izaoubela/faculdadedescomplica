@@ -21,3 +21,52 @@ inicio
 fimalgoritmo
 
 -------
+
+
+Algoritmo "ProdecimentoExercicio"
+
+procedimento produto
+
+var
+   mult: inteiro
+   
+inicio
+      mult <- a * b
+      res <- mult
+fimprocedimento
+
+var
+   res, a, b: inteiro
+
+inicio
+      a <- 6
+      b <- 8
+      produto
+      ESCREVA(res)
+fimalgoritmo
+
+
+---------
+
+Exercícios Obrigatórios! 
+Algoritmo "quartaPegunta"
+Procedimento termodapa
+
+var
+aux: inteiro
+inicio
+aux <- a + (n - 1) * r
+res <- aux
+fimprocedimento
+
+var
+res, a, n, r: inteiro
+
+inicio
+a <- 20
+n <- 8
+r <- 4
+termodapa
+ESCREVA(res)
+
+fimalgoritmo
