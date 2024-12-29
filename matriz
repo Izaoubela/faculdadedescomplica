@@ -1,0 +1,24 @@
+Algoritmo "exercicioMatriz"
+
+Var
+numeros: vetor[1..3,1..2] de inteiro
+n1, n2: inteiro
+soma: inteiro
+
+Inicio
+soma <- 1
+PARA n1 DE 1 ATE 3 FACA
+  PARA n2 DE 1 ATE 2 FACA
+    soma <- soma+2
+    numeros[n1,n2] <- soma
+  FIMPARA
+FIMPARA
+
+PARA n1 DE 1 ATE 3 FACA
+  PARA n2 DE 1 ATE 2 FACA
+    ESCREVAL ("O valor para linha", n1, " e coluna", n2, " é: ")
+    ESCREVAL (numeros[n1,n2])
+  FIMPARA
+FIMPARA
+
+Fimalgoritmo
