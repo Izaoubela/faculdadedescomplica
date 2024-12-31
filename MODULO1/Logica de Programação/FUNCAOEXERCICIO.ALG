@@ -19,7 +19,7 @@ Inicio
       Escreval ("Digite um número: ")
       Leia (n)
       Escreval ("Digite outro número: ")
-      Leia (m)
+      Leia m)
       resultado <- produto
       Escreva("O resultado do produto dos dois números é: ", resultado)
 
