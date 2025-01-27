@@ -9,14 +9,14 @@ class MeuPrimeiroProgramaJava
   {
   //declaração de variáveis
     int inteiro = 29;
-    char caracter = 'F';
+    char Caracter = 'F';
     double real = 1.70;
     String frase = "Izabela ";
     boolean VF = true;
 
     if (VF == true)
     {
-      System.out.println("Eu sou a " + frase + "tenho " + inteiro + "anos e tenho " + real + "m de altura");
+      System.out.println("Eu sou a " + frase + "tenho " + inteiro + "anos e tenho " + real + "m de altura e sou " + Caracter);
     }
 
   System.exit(0);
