@@ -1,0 +1,55 @@
+import javax.swing.*;
+
+class ProgDecisao
+{
+    public static void main (String entrada())
+    {
+        int num;
+        char option;
+        String message="" , openMessage="Digite 1 para par/ ou ímpar.\nDigite 2 para positivo ou negativo.";
+
+        num = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro"));
+        option = (JOptionPane.showInputDialog(openMessage)).charAt(0)
+
+        switch(option)
+        {
+            if (option == '1' || option == '2' )
+            {
+                JOptionPane.showMessageDialog(null, message);
+            }
+        }
+        
+        switch (option) 
+        {
+            case '1':
+            {
+                if (num % 2 == 0) 
+                {
+                    message = message + num + " é par.\n";
+                }
+                else
+                {
+                    message = message + num " é ímpar.\n";
+                }
+                break;
+            }
+            case '2':
+            {
+                if (num > 0)
+                {
+                    message = message + num + " é positivo.\n";
+                }
+                else
+                {
+                    message = message + num + " é negativo.\n";
+                }
+                break;
+            }
+            default: JOptionPane.showMessageDialog(null, "Opção inválida, calcúlos não realizados");
+        }
+    }
+
+       
+}
+
+
